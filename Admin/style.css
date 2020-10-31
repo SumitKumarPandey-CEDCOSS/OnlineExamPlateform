@@ -1,0 +1,311 @@
+body
+{
+    background-image: linear-gradient(to right, rgba(165, 105, 189,0 ), rgba(165, 105, 189 ,1));
+    font-family: Verdana;
+}
+#wrapper
+{
+    margin-left: 37%;
+    margin-top: 6%;
+}
+#login-form .submit input[type='submit'],
+#signup-form .submit input[type='submit']
+{
+    width: 280px;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #5D6D7E;
+    border-radius: 3px;
+    color:white;   
+}
+#login-form .submit input[type='submit']:hover,
+#signup-form .submit input[type='submit']:hover
+{
+    background-color: rgba(255, 0, 0,0.5);
+    font-size: 15px;
+}
+#login-form .input input[type="text"], input[type="password"], input[type="email"],#roles,
+#signup-form .input input[type="password"], input[type="email"],#roles,
+#signup-form .input input[type="text"]
+{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.logo
+{
+background-color: #8E44AD;
+border-radius: 10px 10px 10px 10px;
+width: 280px;
+height: 40px;
+text-align: center;
+box-shadow: 5px 10px 18px #884EA0;
+padding: 15px 0px 0px 0px;
+color: white;
+}
+#head
+{
+    margin-left: 70px;
+}
+#header
+{
+    text-align: center;
+    color: #4A235A;
+}
+ul{
+    background-color: #333;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+li{
+    float: left;
+    
+}
+li a 
+{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+
+    display: block;
+    background-color: grey;
+    text-decoration: none;
+    text-align: center;
+
+}
+li.dropdown {
+    display: inline-block;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#6C3483;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #2E4053;
+    text-decoration: none;
+    display: block;
+}
+#nav
+{
+    margin-top: 50px;
+}
+#footer
+{
+    padding: 20px;
+}
+#footer-links{
+	list-style: none;
+	overflow: hidden;
+}
+
+#footer-links li{
+	float: left;
+}
+#footer-links li a{
+	padding: 10px 50px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #000000;	
+} 
+#footer-links li:first-child a{
+	padding-left: 0px;
+}
+#footer-links{
+	width: 40%;
+    margin: 0 auto;
+}
+#dash h2
+{
+    text-align: center;
+}
+#tab
+{
+    margin-top: 10%;
+    margin-left: 33%;
+}
+#tab table
+{
+    width: 500px;
+    height: 100px;
+}
+#tab table,th,tr,td
+{
+    border:2px solid black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+table a
+{
+    text-decoration: none;
+}
+#errordiv ul
+{
+    background-color: transparent;
+}
+#errordiv li
+{
+    color: red;
+    margin-left: 30px;
+}
+.lo
+{
+    color: #0000FF;
+    margin-left: 76px;
+    font-weight: 900;
+}
+#msg
+{
+    margin-top: 0%;
+    margin-right: 2% ;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#add-form .submit input[type=submit] {
+    background-color: #808B96;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+#add-form .col-75 input[type=text], select{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#add-form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold ;
+    font-size: 17px;
+}
+#headd {
+    margin-top: 8%;
+    margin-left: 40%;
+}
+#headd table,p
+{
+    width: 400px;
+    color: black;
+}
+#log
+{
+    float: right;
+}
+#table
+{
+    padding: 20px;
+    width: 600px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 1%;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.answer
+{
+    color: green;  
+    font-size: 25px;
+}
+.answer1
+{
+    color: red;
+    width: auto;
+    font-size: 25px;
+}
+#status
+{
+    font-size: 30px;
+    text-align: center;
+    color: green;
+    margin-left: 41%;
+    padding: 10px;
+    width: 160px;
+    border-style: solid;
+    border-radius: 2px;
+    margin-top: 1%;
+
+}
+#status1
+{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    margin-left: 41%;
+    padding: 10px;
+    width: 160px;
+    border-style: solid;
+    border-radius: 2px;
+    margin-top: 1%;
+
+}
+#submitted
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: chocolate;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+#btn
+{
+    background-color: #808B96;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 42%;
+    text-decoration: none;
+}
+#btn1
+{
+    background-color: #808B96;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#btn1:hover
+{
+    background-color :#EA3710;
+}
